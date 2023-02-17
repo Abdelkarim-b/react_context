@@ -8,8 +8,9 @@ import { Navbar } from './Navbar';
 function App() {
   return (
     <div className="App">
-        <Navbar />
+        
         <Router>
+        <Navbar />
               <Routes>
                <Route path="/" element={<Home />}/>
                <Route path="/menu" element={<Menu />}/>
