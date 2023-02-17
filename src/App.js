@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,  Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router,  Route, Routes, Link} from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Menu } from './pages/Menu';
 import { Contact } from './pages/Contact';
@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
         <Router>
-               {/* <div>
+               <div>
                 <Link></Link>
-               </div> */}
+               </div>
 
               <Routes>
                <Route path="/" element={<Home />}/>
