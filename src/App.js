@@ -9,7 +9,9 @@ function App() {
     <div className="App">
         <Router>
                <div>
-                <Link></Link>
+                <Link to="/">Home</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/contact">Contact</Link>
                </div>
 
               <Routes>
